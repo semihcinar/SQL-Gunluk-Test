@@ -1,0 +1,4 @@
+select title, release_year,duration
+from films
+where release_year IN(1990,2000)
+and duration > 120
