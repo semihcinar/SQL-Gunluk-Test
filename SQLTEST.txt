@@ -1,0 +1,2 @@
+SELECT * FROM sw
+WHERE ıd='11'
