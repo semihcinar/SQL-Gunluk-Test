@@ -10,6 +10,7 @@ ON A.brand_id = B.brand_id
 GROUP BY A.brand_name
 ORDER BY AVG(B.list_price) DESC;
 
+---------------------------------
 
 
 SELECT A.brand_name, AVG(B.list_price) AS avg_list_price
